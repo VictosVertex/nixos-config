@@ -73,9 +73,22 @@
   };
 
   environment.systemPackages = with pkgs; [
-    ntfs3g # Used to find the Windows partition and make it available in GRUB
+    # Used to find the Windows partition and make it available in GRUB
+    ntfs3g
     vim
     git
+    
+    # Communication
+    discord
+
+    # Browser
+    brave
+
+    # Terminal
+    ghostty
+    zellij
+    
+    # Window Management
     hyprland
     waybar
     xwayland
