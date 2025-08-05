@@ -102,6 +102,9 @@
     xwayland
     xdg-desktop-portal-hyprland
     xdg-desktop-portal-gtk
+    
+    # App Launcher
+    wofi
   ];
 
   nixpkgs.config.allowUnfree = true;
