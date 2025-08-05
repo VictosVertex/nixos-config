@@ -43,7 +43,6 @@
   programs.hyprland = {
       enable = true;
       xwayland.enable = true;
-      xwayland.hidpi = true;
   };
 
   # Configure keymap in X11
