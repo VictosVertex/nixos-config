@@ -3,7 +3,9 @@
 {
 	home.username = "victos";
 	home.homeDirectory = "/home/victos";
-      	
+	
+	home.file.".icons/default".source = "${pkgs.vanilla-dmz}/share/icons/Vanilla-DMZ";
+
 	programs.git = {
 		enable = true;
 		userName = "VictosVertex";
@@ -11,7 +13,32 @@
 	};	
 
   	home.packages = with pkgs; [
-		neofetch
+	    	# Text Editor
+		neovim
+
+		# Communication
+    		discord
+
+    		# Browser
+    		brave
+
+    		# Terminal
+    		ghostty
+    		zellij
+    
+   		 # Window Management
+    		hyprland
+    		waybar
+    		xwayland
+    		xdg-desktop-portal-hyprland
+    		xdg-desktop-portal-gtk
+    		swww
+
+    		# App Launcher
+		fuzzel
+
+		# Audio Control
+    		pavucontrol
 	];
 
 

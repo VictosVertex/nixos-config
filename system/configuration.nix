@@ -61,29 +61,7 @@
     vim
     git
 
-    # Communication
-    discord
-
-    # Browser
-    brave
-
-    # Terminal
-    ghostty
-    zellij
-    
-    # Window Management
-    hyprland
-    waybar
-    xwayland
-    xdg-desktop-portal-hyprland
-    xdg-desktop-portal-gtk
-    
-    # App Launcher
-    wofi
-
-    # Audio Control
-    pavucontrol
-  ];
+ ];
 
   # Allow packages that are not free
   nixpkgs.config.allowUnfree = true;
