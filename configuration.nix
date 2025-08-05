@@ -13,7 +13,7 @@
   boot.loader.grub.useOSProber = true;
   boot.loader.grub.efiSupport = true;
 
-  # Kernel.
+  # Kernel
   boot.kernelPackages = pkgs.linuxPackages_latest;
 
   # Networking
@@ -39,11 +39,12 @@
   # Flakes
   nix.settings.experimental-features = [ "nix-command" "flakes" ];
 
-  # Enable the X11 windowing system.
-  # services.xserver.enable = true;
-
-
-  
+  # Window Manager
+  programs.hyprland = {
+      enable = true;
+      xwayland.enable = true;
+      xwayland.hidpi = true;
+  };
 
   # Configure keymap in X11
   # services.xserver.xkb.layout = "us";
@@ -76,6 +77,9 @@
     ntfs3g # Used to find the Windows partition and make it available in GRUB
     vim
     git
+    hyprland
+    waybar
+    xwayland
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
