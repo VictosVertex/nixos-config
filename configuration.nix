@@ -45,6 +45,11 @@
       xwayland.enable = true;
   };
 
+  # Let Electron Apps use Wayland
+  environment.sessionVariables = {
+    NIXOS_OZONE_WL = "1";
+  };
+
   # Configure keymap in X11
   # services.xserver.xkb.layout = "us";
   # services.xserver.xkb.options = "eurosign:e,caps:escape";
@@ -55,10 +60,13 @@
   # Enable sound.
   # services.pulseaudio.enable = true;
   # OR
-  # services.pipewire = {
-  #   enable = true;
-  #   pulse.enable = true;
-  # };
+  security.rtkit.enable = true;
+  services.pipewire = {
+    enable = true;
+    pulse.enable = true;
+    alsa.enable = true;
+    alsa.support32Bit = true;
+  };
 
   # Enable touchpad support (enabled default in most desktopManager).
   # services.libinput.enable = true;
@@ -92,6 +100,8 @@
     hyprland
     waybar
     xwayland
+    xdg-desktop-portal-hyprland
+    xdg-desktop-portal-gtk
   ];
 
   nixpkgs.config.allowUnfree = true;
