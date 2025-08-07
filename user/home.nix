@@ -47,6 +47,7 @@
 
 	xdg.configFile = {
 		"hypr/hyprland.conf".source = ./hypr/hyprland.conf;
+		"nvim".source = ./nvim;
 	};
 
   	home.stateVersion = "25.05";
