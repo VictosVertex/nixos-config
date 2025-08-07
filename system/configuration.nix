@@ -15,6 +15,7 @@
 
   # Kernel
   boot.kernelPackages = pkgs.linuxPackages_latest;
+  boot.initrd.kernelModules = [ "amdgpu" ];
 
   # Networking
   networking.hostName = "vertex";
@@ -55,12 +56,17 @@
     alsa.support32Bit = true;
   };
 
+  # Video
+  hardware.graphics = {
+    enable = true;
+    enable32Bit = true;
+  };
+
   environment.systemPackages = with pkgs; [
     # Used to find the Windows partition and make it available in GRUB
     ntfs3g
     vim
     git
-
  ];
 
   # Allow packages that are not free

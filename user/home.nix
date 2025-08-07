@@ -39,6 +39,9 @@
 
 		# Audio Control
     		pavucontrol
+
+		# Gaming
+		lutris
 	];
 
 
