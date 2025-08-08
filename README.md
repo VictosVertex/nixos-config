@@ -33,15 +33,15 @@ Current key pieces of software:
 
 ## Repository Structure
 
-├── flake.nix                           # Main entrypoint, defines inputs and outputs.
-├── README.md                           # You are here!
-│
-├── system/                             # System-wide configuration for NixOS.
-│   ├── configuration.nix
-│   └── hardware-configuration.nix      # This is specific to my system!
-│
-└── home/                               # User-specific configuration.
-    ├── home.nix                        # Package configuration via [Home Manager](https://nix-community.github.io/home-manager/)
-    ├── hypr/                           # Hyprland
-    ├── nvim/                           # NeoVim using [lazy.nvim](https://github.com/folke/lazy.nvim)
-    └── ...
+    ├── flake.nix                           # Main entrypoint, defines inputs and outputs.
+    ├── README.md                           # You are here!
+    │
+    ├── system/                             # System-wide configuration for NixOS.
+    │   ├── configuration.nix
+    │   └── hardware-configuration.nix      # This is specific to my system!
+    │
+    └── home/                               # User-specific configuration.
+        ├── home.nix                        # Package configuration via [Home Manager](https://nix-community.github.io/home-manager/)
+        ├── hypr/                           # Hyprland
+        ├── nvim/                           # NeoVim using [lazy.nvim](https://github.com/folke/lazy.nvim)
+        └── ...
