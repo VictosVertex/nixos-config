@@ -10,7 +10,7 @@ It will mainly be used for development but may introduce other elements, such as
 
 While NixOS can configure almost everything (it seems), I've chosen to follow a hybrid approach. 
 More precisely, I've decided to keep certain configurations in the same repository 
-but still use their native configurations. For example, NeoVIM will be configured using lua, 
+but still use their native configurations. For example, NeoVIM will be configured using lua (with [lazy.nvim](https://github.com/folke/lazy.nvim)),
 not nix.
 
 This may introduce some extra challenges, but could also provide some benefits:
@@ -41,7 +41,7 @@ Current key pieces of software:
     │   └── hardware-configuration.nix      # This is specific to my system!
     │
     └── home/                               # User-specific configuration.
-        ├── home.nix                        # Package configuration via [Home Manager](https://nix-community.github.io/home-manager/)
+        ├── home.nix                        # Home-Manager (packages / services)
         ├── hypr/                           # Hyprland
-        ├── nvim/                           # NeoVim using [lazy.nvim](https://github.com/folke/lazy.nvim)
+        ├── nvim/                           # NeoVim
         └── ...
