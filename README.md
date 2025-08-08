@@ -1,4 +1,4 @@
-# NixOS Config ❄️
+# NixOS Config
 
 This repository contains the configuration files for my personal system running NixOS.
 As I explore how NixOS works, this configuration will grow and evolve.
