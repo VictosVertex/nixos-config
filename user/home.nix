@@ -25,6 +25,9 @@
         # Text Editor
         neovim
 
+        # Programming
+        gcc
+
         # Communication
         discord
 
