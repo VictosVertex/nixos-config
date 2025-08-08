@@ -1,63 +1,66 @@
 { config, pkgs, ... }:
 
 {
-	home.username = "victos";
-	home.homeDirectory = "/home/victos";
-	
-	home.file.".icons/default".source = "${pkgs.vanilla-dmz}/share/icons/Vanilla-DMZ";
+    home.username = "victos";
+    home.homeDirectory = "/home/victos";
 
-	programs.git = {
-		enable = true;
-		userName = "VictosVertex";
-		userEmail = "Victos.Vertex@gmail.com";
-	};
+    home.file.".icons/default".source = "${pkgs.vanilla-dmz}/share/icons/Vanilla-DMZ";
 
-	# SSH	
-	programs.ssh = {
-		enable = true;
-		addKeysToAgent = "yes";
-	};	
+    programs.git = {
+        enable = true;
+        userName = "VictosVertex";
+        userEmail = "Victos.Vertex@gmail.com";
+    };
 
-	# SSH Agent to hold the key
-	services.ssh-agent.enable = true;
+# SSH	
+    programs.ssh = {
+        enable = true;
+        addKeysToAgent = "yes";
+    };	
 
-  	home.packages = with pkgs; [
-	    	# Text Editor
-		neovim
+# SSH Agent to hold the key
+    services.ssh-agent.enable = true;
 
-		# Communication
-    		discord
+    home.packages = with pkgs; [
+        # Text Editor
+        neovim
 
-    		# Browser
-    		brave
+        # Communication
+        discord
 
-    		# Terminal
-    		ghostty
-    		zellij
-    
-   		 # Window Management
-    		hyprland
-    		waybar
-    		xwayland
-    		xdg-desktop-portal-hyprland
-    		xdg-desktop-portal-gtk
-    		swww
+        # Browser
+        brave
 
-    		# App Launcher
-		fuzzel
+        # Terminal
+        ghostty
+        zellij
 
-		# Audio Control
-    		pavucontrol
+        # Window Management
+        hyprland
+        waybar
+        xwayland
+        xdg-desktop-portal-hyprland
+        xdg-desktop-portal-gtk
+        swww
 
-		# Gaming
-		lutris
-	];
+        # App Launcher
+        fuzzel
+
+        # Audio Control
+        pavucontrol
+
+        # Gaming
+        lutris
+
+        # Utility
+        btop
+    ];
 
 
-	xdg.configFile = {
-		"hypr/hyprland.conf".source = ./hypr/hyprland.conf;
-		"nvim".source = ./nvim;
-	};
+    xdg.configFile = {
+        "hypr/hyprland.conf".source = ./hypr/hyprland.conf;
+        "nvim".source = ./nvim;
+    };
 
-  	home.stateVersion = "25.05";
+    home.stateVersion = "25.05";
 }
