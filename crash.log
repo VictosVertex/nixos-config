@@ -1,0 +1,289 @@
+
+sourcing "nvim_exec2()"
+finished sourcing nvim_exec2()
+sourcing "/nix/store/b0z11xqnafb6zj08403sqsrvzj7212j4-neovim-unwrapped-0.11.3/share/nvim/runtime/ftplugin.vim"
+finished sourcing /nix/store/b0z11xqnafb6zj08403sqsrvzj7212j4-neovim-unwrapped-0.11.3/share/nvim/runtime/ftplugin.vim
+sourcing "/nix/store/b0z11xqnafb6zj08403sqsrvzj7212j4-neovim-unwrapped-0.11.3/share/nvim/runtime/indent.vim"
+finished sourcing /nix/store/b0z11xqnafb6zj08403sqsrvzj7212j4-neovim-unwrapped-0.11.3/share/nvim/runtime/indent.vim
+could not source "/etc/xdg/nvim/sysinit.vim"
+could not source "/home/victos/.nix-profile/etc/xdg/nvim/sysinit.vim"
+could not source "/nix/profile/etc/xdg/nvim/sysinit.vim"
+could not source "/home/victos/.local/state/nix/profile/etc/xdg/nvim/sysinit.vim"
+could not source "/etc/profiles/per-user/victos/etc/xdg/nvim/sysinit.vim"
+could not source "/nix/var/nix/profiles/default/etc/xdg/nvim/sysinit.vim"
+could not source "/run/current-system/sw/etc/xdg/nvim/sysinit.vim"
+could not source "$VIM/sysinit.vim"
+sourcing "/home/victos/.config/nvim/init.lua"
+                                             Failed to clone lazy.nvim:
+Cloning into '/home/victos/.local/share/nvim/lazy/lazy.nvim'...
+ERROR: Repository not found.
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+Press any key to exit...
+sourcing "nvim_exec2()"
+finished sourcing nvim_exec2()
+sourcing "/nix/store/b0z11xqnafb6zj08403sqsrvzj7212j4-neovim-unwrapped-0.11.3/share/nvim/runtime/ftplugin.vim"
+finished sourcing /nix/store/b0z11xqnafb6zj08403sqsrvzj7212j4-neovim-unwrapped-0.11.3/share/nvim/runtime/ftplugin.vim
+sourcing "/nix/store/b0z11xqnafb6zj08403sqsrvzj7212j4-neovim-unwrapped-0.11.3/share/nvim/runtime/indent.vim"
+finished sourcing /nix/store/b0z11xqnafb6zj08403sqsrvzj7212j4-neovim-unwrapped-0.11.3/share/nvim/runtime/indent.vim
+could not source "/etc/xdg/nvim/sysinit.vim"
+could not source "/home/victos/.nix-profile/etc/xdg/nvim/sysinit.vim"
+could not source "/nix/profile/etc/xdg/nvim/sysinit.vim"
+could not source "/home/victos/.local/state/nix/profile/etc/xdg/nvim/sysinit.vim"
+could not source "/etc/profiles/per-user/victos/etc/xdg/nvim/sysinit.vim"
+could not source "/nix/var/nix/profiles/default/etc/xdg/nvim/sysinit.vim"
+could not source "/run/current-system/sw/etc/xdg/nvim/sysinit.vim"
+could not source "$VIM/sysinit.vim"
+sourcing "/home/victos/.config/nvim/init.lua"
+                                             Error detected while processing /nix/store/bxbpcdfqpbla87qkfncy8cc1zi4vnzxb-hm_nvim/init.lua:No specs found for module "plugins"
+line 0: sourcing "nvim_exec2() called at /nix/store/bxbpcdfqpbla87qkfncy8cc1zi4vnzxb-hm_nvim/init.lua:0"
+line 1: sourcing "/nix/store/b0z11xqnafb6zj08403sqsrvzj7212j4-neovim-unwrapped-0.11.3/share/nvim/runtime/filetype.lua"
+line 0: sourcing "nvim_exec2() called at /nix/store/b0z11xqnafb6zj08403sqsrvzj7212j4-neovim-unwrapped-0.11.3/share/nvim/runtime/filetype.lua:0"
+not found in runtime path: "ftdetect/*.{vim,lua}"
+finished sourcing nvim_exec2() called at /nix/store/b0z11xqnafb6zj08403sqsrvzj7212j4-neovim-unwrapped-0.11.3/share/nvim/runtime/filetype.lua:0
+continuing in /nix/store/b0z11xqnafb6zj08403sqsrvzj7212j4-neovim-unwrapped-0.11.3/share/nvim/runtime/filetype.lua
+finished sourcing /nix/store/b0z11xqnafb6zj08403sqsrvzj7212j4-neovim-unwrapped-0.11.3/share/nvim/runtime/filetype.lua
+continuing in nvim_exec2() called at /nix/store/bxbpcdfqpbla87qkfncy8cc1zi4vnzxb-hm_nvim/init.lua:0
+finished sourcing nvim_exec2() called at /nix/store/bxbpcdfqpbla87qkfncy8cc1zi4vnzxb-hm_nvim/init.lua:0
+continuing in /nix/store/bxbpcdfqpbla87qkfncy8cc1zi4vnzxb-hm_nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /nix/store/bxbpcdfqpbla87qkfncy8cc1zi4vnzxb-hm_nvim/init.lua:0"
+line 1: sourcing "/nix/store/b0z11xqnafb6zj08403sqsrvzj7212j4-neovim-unwrapped-0.11.3/share/nvim/runtime/plugin/editorconfig.lua"
+finished sourcing /nix/store/b0z11xqnafb6zj08403sqsrvzj7212j4-neovim-unwrapped-0.11.3/share/nvim/runtime/plugin/editorconfig.lua
+continuing in nvim_exec2() called at /nix/store/bxbpcdfqpbla87qkfncy8cc1zi4vnzxb-hm_nvim/init.lua:0
+finished sourcing nvim_exec2() called at /nix/store/bxbpcdfqpbla87qkfncy8cc1zi4vnzxb-hm_nvim/init.lua:0
+continuing in /nix/store/bxbpcdfqpbla87qkfncy8cc1zi4vnzxb-hm_nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /nix/store/bxbpcdfqpbla87qkfncy8cc1zi4vnzxb-hm_nvim/init.lua:0"
+line 1: sourcing "/nix/store/b0z11xqnafb6zj08403sqsrvzj7212j4-neovim-unwrapped-0.11.3/share/nvim/runtime/plugin/gzip.vim"
+finished sourcing /nix/store/b0z11xqnafb6zj08403sqsrvzj7212j4-neovim-unwrapped-0.11.3/share/nvim/runtime/plugin/gzip.vim
+continuing in nvim_exec2() called at /nix/store/bxbpcdfqpbla87qkfncy8cc1zi4vnzxb-hm_nvim/init.lua:0
+finished sourcing nvim_exec2() called at /nix/store/bxbpcdfqpbla87qkfncy8cc1zi4vnzxb-hm_nvim/init.lua:0
+continuing in /nix/store/bxbpcdfqpbla87qkfncy8cc1zi4vnzxb-hm_nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /nix/store/bxbpcdfqpbla87qkfncy8cc1zi4vnzxb-hm_nvim/init.lua:0"
+line 1: sourcing "/nix/store/b0z11xqnafb6zj08403sqsrvzj7212j4-neovim-unwrapped-0.11.3/share/nvim/runtime/plugin/man.lua"
+finished sourcing /nix/store/b0z11xqnafb6zj08403sqsrvzj7212j4-neovim-unwrapped-0.11.3/share/nvim/runtime/plugin/man.lua
+continuing in nvim_exec2() called at /nix/store/bxbpcdfqpbla87qkfncy8cc1zi4vnzxb-hm_nvim/init.lua:0
+finished sourcing nvim_exec2() called at /nix/store/bxbpcdfqpbla87qkfncy8cc1zi4vnzxb-hm_nvim/init.lua:0
+continuing in /nix/store/bxbpcdfqpbla87qkfncy8cc1zi4vnzxb-hm_nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /nix/store/bxbpcdfqpbla87qkfncy8cc1zi4vnzxb-hm_nvim/init.lua:0"
+line 1: sourcing "/nix/store/b0z11xqnafb6zj08403sqsrvzj7212j4-neovim-unwrapped-0.11.3/share/nvim/runtime/plugin/matchit.vim"
+not found in 'packpath': "pack/*/start/matchit"
+line 3: sourcing "/nix/store/b0z11xqnafb6zj08403sqsrvzj7212j4-neovim-unwrapped-0.11.3/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim"
+finished sourcing /nix/store/b0z11xqnafb6zj08403sqsrvzj7212j4-neovim-unwrapped-0.11.3/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim
+continuing in /nix/store/b0z11xqnafb6zj08403sqsrvzj7212j4-neovim-unwrapped-0.11.3/share/nvim/runtime/plugin/matchit.vim
+finished sourcing /nix/store/b0z11xqnafb6zj08403sqsrvzj7212j4-neovim-unwrapped-0.11.3/share/nvim/runtime/plugin/matchit.vim
+continuing in nvim_exec2() called at /nix/store/bxbpcdfqpbla87qkfncy8cc1zi4vnzxb-hm_nvim/init.lua:0
+finished sourcing nvim_exec2() called at /nix/store/bxbpcdfqpbla87qkfncy8cc1zi4vnzxb-hm_nvim/init.lua:0
+continuing in /nix/store/bxbpcdfqpbla87qkfncy8cc1zi4vnzxb-hm_nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /nix/store/bxbpcdfqpbla87qkfncy8cc1zi4vnzxb-hm_nvim/init.lua:0"
+line 1: sourcing "/nix/store/b0z11xqnafb6zj08403sqsrvzj7212j4-neovim-unwrapped-0.11.3/share/nvim/runtime/plugin/matchparen.vim"
+finished sourcing /nix/store/b0z11xqnafb6zj08403sqsrvzj7212j4-neovim-unwrapped-0.11.3/share/nvim/runtime/plugin/matchparen.vim
+continuing in nvim_exec2() called at /nix/store/bxbpcdfqpbla87qkfncy8cc1zi4vnzxb-hm_nvim/init.lua:0
+finished sourcing nvim_exec2() called at /nix/store/bxbpcdfqpbla87qkfncy8cc1zi4vnzxb-hm_nvim/init.lua:0
+continuing in /nix/store/bxbpcdfqpbla87qkfncy8cc1zi4vnzxb-hm_nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /nix/store/bxbpcdfqpbla87qkfncy8cc1zi4vnzxb-hm_nvim/init.lua:0"
+line 1: sourcing "/nix/store/b0z11xqnafb6zj08403sqsrvzj7212j4-neovim-unwrapped-0.11.3/share/nvim/runtime/plugin/netrwPlugin.vim"
+not found in 'packpath': "pack/*/start/netrw"
+line 7: sourcing "/nix/store/b0z11xqnafb6zj08403sqsrvzj7212j4-neovim-unwrapped-0.11.3/share/nvim/runtime/pack/dist/opt/netrw/plugin/netrwPlugin.vim"
+finished sourcing /nix/store/b0z11xqnafb6zj08403sqsrvzj7212j4-neovim-unwrapped-0.11.3/share/nvim/runtime/pack/dist/opt/netrw/plugin/netrwPlugin.vim
+continuing in /nix/store/b0z11xqnafb6zj08403sqsrvzj7212j4-neovim-unwrapped-0.11.3/share/nvim/runtime/plugin/netrwPlugin.vim
+finished sourcing /nix/store/b0z11xqnafb6zj08403sqsrvzj7212j4-neovim-unwrapped-0.11.3/share/nvim/runtime/plugin/netrwPlugin.vim
+continuing in nvim_exec2() called at /nix/store/bxbpcdfqpbla87qkfncy8cc1zi4vnzxb-hm_nvim/init.lua:0
+finished sourcing nvim_exec2() called at /nix/store/bxbpcdfqpbla87qkfncy8cc1zi4vnzxb-hm_nvim/init.lua:0
+continuing in /nix/store/bxbpcdfqpbla87qkfncy8cc1zi4vnzxb-hm_nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /nix/store/bxbpcdfqpbla87qkfncy8cc1zi4vnzxb-hm_nvim/init.lua:0"
+line 1: sourcing "/nix/store/b0z11xqnafb6zj08403sqsrvzj7212j4-neovim-unwrapped-0.11.3/share/nvim/runtime/plugin/osc52.lua"
+finished sourcing /nix/store/b0z11xqnafb6zj08403sqsrvzj7212j4-neovim-unwrapped-0.11.3/share/nvim/runtime/plugin/osc52.lua
+continuing in nvim_exec2() called at /nix/store/bxbpcdfqpbla87qkfncy8cc1zi4vnzxb-hm_nvim/init.lua:0
+finished sourcing nvim_exec2() called at /nix/store/bxbpcdfqpbla87qkfncy8cc1zi4vnzxb-hm_nvim/init.lua:0
+continuing in /nix/store/bxbpcdfqpbla87qkfncy8cc1zi4vnzxb-hm_nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /nix/store/bxbpcdfqpbla87qkfncy8cc1zi4vnzxb-hm_nvim/init.lua:0"
+line 1: sourcing "/nix/store/b0z11xqnafb6zj08403sqsrvzj7212j4-neovim-unwrapped-0.11.3/share/nvim/runtime/plugin/rplugin.vim"
+line 3: sourcing "/nix/store/p1325jszqrigm8l4l69ddx3v9sp8hqkv-neovim-0.11.3/rplugin.vim"
+finished sourcing /nix/store/p1325jszqrigm8l4l69ddx3v9sp8hqkv-neovim-0.11.3/rplugin.vim
+continuing in <SNR>21_LoadRemotePlugins
+finished sourcing /nix/store/b0z11xqnafb6zj08403sqsrvzj7212j4-neovim-unwrapped-0.11.3/share/nvim/runtime/plugin/rplugin.vim
+continuing in nvim_exec2() called at /nix/store/bxbpcdfqpbla87qkfncy8cc1zi4vnzxb-hm_nvim/init.lua:0
+finished sourcing nvim_exec2() called at /nix/store/bxbpcdfqpbla87qkfncy8cc1zi4vnzxb-hm_nvim/init.lua:0
+continuing in /nix/store/bxbpcdfqpbla87qkfncy8cc1zi4vnzxb-hm_nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /nix/store/bxbpcdfqpbla87qkfncy8cc1zi4vnzxb-hm_nvim/init.lua:0"
+line 1: sourcing "/nix/store/b0z11xqnafb6zj08403sqsrvzj7212j4-neovim-unwrapped-0.11.3/share/nvim/runtime/plugin/shada.vim"
+finished sourcing /nix/store/b0z11xqnafb6zj08403sqsrvzj7212j4-neovim-unwrapped-0.11.3/share/nvim/runtime/plugin/shada.vim
+continuing in nvim_exec2() called at /nix/store/bxbpcdfqpbla87qkfncy8cc1zi4vnzxb-hm_nvim/init.lua:0
+finished sourcing nvim_exec2() called at /nix/store/bxbpcdfqpbla87qkfncy8cc1zi4vnzxb-hm_nvim/init.lua:0
+continuing in /nix/store/bxbpcdfqpbla87qkfncy8cc1zi4vnzxb-hm_nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /nix/store/bxbpcdfqpbla87qkfncy8cc1zi4vnzxb-hm_nvim/init.lua:0"
+line 1: sourcing "/nix/store/b0z11xqnafb6zj08403sqsrvzj7212j4-neovim-unwrapped-0.11.3/share/nvim/runtime/plugin/spellfile.vim"
+finished sourcing /nix/store/b0z11xqnafb6zj08403sqsrvzj7212j4-neovim-unwrapped-0.11.3/share/nvim/runtime/plugin/spellfile.vim
+continuing in nvim_exec2() called at /nix/store/bxbpcdfqpbla87qkfncy8cc1zi4vnzxb-hm_nvim/init.lua:0
+finished sourcing nvim_exec2() called at /nix/store/bxbpcdfqpbla87qkfncy8cc1zi4vnzxb-hm_nvim/init.lua:0
+continuing in /nix/store/bxbpcdfqpbla87qkfncy8cc1zi4vnzxb-hm_nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /nix/store/bxbpcdfqpbla87qkfncy8cc1zi4vnzxb-hm_nvim/init.lua:0"
+line 1: sourcing "/nix/store/b0z11xqnafb6zj08403sqsrvzj7212j4-neovim-unwrapped-0.11.3/share/nvim/runtime/plugin/tarPlugin.vim"
+finished sourcing /nix/store/b0z11xqnafb6zj08403sqsrvzj7212j4-neovim-unwrapped-0.11.3/share/nvim/runtime/plugin/tarPlugin.vim
+continuing in nvim_exec2() called at /nix/store/bxbpcdfqpbla87qkfncy8cc1zi4vnzxb-hm_nvim/init.lua:0
+finished sourcing nvim_exec2() called at /nix/store/bxbpcdfqpbla87qkfncy8cc1zi4vnzxb-hm_nvim/init.lua:0
+continuing in /nix/store/bxbpcdfqpbla87qkfncy8cc1zi4vnzxb-hm_nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /nix/store/bxbpcdfqpbla87qkfncy8cc1zi4vnzxb-hm_nvim/init.lua:0"
+line 1: sourcing "/nix/store/b0z11xqnafb6zj08403sqsrvzj7212j4-neovim-unwrapped-0.11.3/share/nvim/runtime/plugin/tohtml.lua"
+finished sourcing /nix/store/b0z11xqnafb6zj08403sqsrvzj7212j4-neovim-unwrapped-0.11.3/share/nvim/runtime/plugin/tohtml.lua
+continuing in nvim_exec2() called at /nix/store/bxbpcdfqpbla87qkfncy8cc1zi4vnzxb-hm_nvim/init.lua:0
+finished sourcing nvim_exec2() called at /nix/store/bxbpcdfqpbla87qkfncy8cc1zi4vnzxb-hm_nvim/init.lua:0
+continuing in /nix/store/bxbpcdfqpbla87qkfncy8cc1zi4vnzxb-hm_nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /nix/store/bxbpcdfqpbla87qkfncy8cc1zi4vnzxb-hm_nvim/init.lua:0"
+line 1: sourcing "/nix/store/b0z11xqnafb6zj08403sqsrvzj7212j4-neovim-unwrapped-0.11.3/share/nvim/runtime/plugin/tutor.vim"
+finished sourcing /nix/store/b0z11xqnafb6zj08403sqsrvzj7212j4-neovim-unwrapped-0.11.3/share/nvim/runtime/plugin/tutor.vim
+continuing in nvim_exec2() called at /nix/store/bxbpcdfqpbla87qkfncy8cc1zi4vnzxb-hm_nvim/init.lua:0
+finished sourcing nvim_exec2() called at /nix/store/bxbpcdfqpbla87qkfncy8cc1zi4vnzxb-hm_nvim/init.lua:0
+continuing in /nix/store/bxbpcdfqpbla87qkfncy8cc1zi4vnzxb-hm_nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /nix/store/bxbpcdfqpbla87qkfncy8cc1zi4vnzxb-hm_nvim/init.lua:0"
+line 1: sourcing "/nix/store/b0z11xqnafb6zj08403sqsrvzj7212j4-neovim-unwrapped-0.11.3/share/nvim/runtime/plugin/zipPlugin.vim"
+finished sourcing /nix/store/b0z11xqnafb6zj08403sqsrvzj7212j4-neovim-unwrapped-0.11.3/share/nvim/runtime/plugin/zipPlugin.vim
+continuing in nvim_exec2() called at /nix/store/bxbpcdfqpbla87qkfncy8cc1zi4vnzxb-hm_nvim/init.lua:0
+finished sourcing nvim_exec2() called at /nix/store/bxbpcdfqpbla87qkfncy8cc1zi4vnzxb-hm_nvim/init.lua:0
+continuing in /nix/store/bxbpcdfqpbla87qkfncy8cc1zi4vnzxb-hm_nvim/init.lua
+finished sourcing /home/victos/.config/nvim/init.lua
+sourcing "/nix/store/b0z11xqnafb6zj08403sqsrvzj7212j4-neovim-unwrapped-0.11.3/share/nvim/runtime/filetype.lua"
+finished sourcing /nix/store/b0z11xqnafb6zj08403sqsrvzj7212j4-neovim-unwrapped-0.11.3/share/nvim/runtime/filetype.lua
+sourcing "/nix/store/b0z11xqnafb6zj08403sqsrvzj7212j4-neovim-unwrapped-0.11.3/share/nvim/runtime/syntax/syntax.vim"
+line 20: sourcing "/nix/store/b0z11xqnafb6zj08403sqsrvzj7212j4-neovim-unwrapped-0.11.3/share/nvim/runtime/syntax/synload.vim"
+finished sourcing /nix/store/b0z11xqnafb6zj08403sqsrvzj7212j4-neovim-unwrapped-0.11.3/share/nvim/runtime/syntax/synload.vim
+continuing in /nix/store/b0z11xqnafb6zj08403sqsrvzj7212j4-neovim-unwrapped-0.11.3/share/nvim/runtime/syntax/syntax.vim
+finished sourcing /nix/store/b0z11xqnafb6zj08403sqsrvzj7212j4-neovim-unwrapped-0.11.3/share/nvim/runtime/syntax/syntax.vim
+Reading ShaDa file "/home/victos/.local/state/nvim/shada/main.shada" info marks oldfiles
+
+Writing ShaDa file "/home/victos/.local/state/nvim/shada/main.shada"
+sourcing "nvim_exec2()"
+finished sourcing nvim_exec2()
+sourcing "/nix/store/b0z11xqnafb6zj08403sqsrvzj7212j4-neovim-unwrapped-0.11.3/share/nvim/runtime/ftplugin.vim"
+finished sourcing /nix/store/b0z11xqnafb6zj08403sqsrvzj7212j4-neovim-unwrapped-0.11.3/share/nvim/runtime/ftplugin.vim
+sourcing "/nix/store/b0z11xqnafb6zj08403sqsrvzj7212j4-neovim-unwrapped-0.11.3/share/nvim/runtime/indent.vim"
+finished sourcing /nix/store/b0z11xqnafb6zj08403sqsrvzj7212j4-neovim-unwrapped-0.11.3/share/nvim/runtime/indent.vim
+could not source "/etc/xdg/nvim/sysinit.vim"
+could not source "/home/victos/.nix-profile/etc/xdg/nvim/sysinit.vim"
+could not source "/nix/profile/etc/xdg/nvim/sysinit.vim"
+could not source "/home/victos/.local/state/nix/profile/etc/xdg/nvim/sysinit.vim"
+could not source "/etc/profiles/per-user/victos/etc/xdg/nvim/sysinit.vim"
+could not source "/nix/var/nix/profiles/default/etc/xdg/nvim/sysinit.vim"
+could not source "/run/current-system/sw/etc/xdg/nvim/sysinit.vim"
+could not source "$VIM/sysinit.vim"
+sourcing "/home/victos/.config/nvim/init.lua"
+                                             Error detected while processing /nix/store/bxbpcdfqpbla87qkfncy8cc1zi4vnzxb-hm_nvim/init.lua:No specs found for module "plugins"
+line 0: sourcing "nvim_exec2() called at /nix/store/bxbpcdfqpbla87qkfncy8cc1zi4vnzxb-hm_nvim/init.lua:0"
+line 1: sourcing "/nix/store/b0z11xqnafb6zj08403sqsrvzj7212j4-neovim-unwrapped-0.11.3/share/nvim/runtime/filetype.lua"
+line 0: sourcing "nvim_exec2() called at /nix/store/b0z11xqnafb6zj08403sqsrvzj7212j4-neovim-unwrapped-0.11.3/share/nvim/runtime/filetype.lua:0"
+not found in runtime path: "ftdetect/*.{vim,lua}"
+finished sourcing nvim_exec2() called at /nix/store/b0z11xqnafb6zj08403sqsrvzj7212j4-neovim-unwrapped-0.11.3/share/nvim/runtime/filetype.lua:0
+continuing in /nix/store/b0z11xqnafb6zj08403sqsrvzj7212j4-neovim-unwrapped-0.11.3/share/nvim/runtime/filetype.lua
+finished sourcing /nix/store/b0z11xqnafb6zj08403sqsrvzj7212j4-neovim-unwrapped-0.11.3/share/nvim/runtime/filetype.lua
+continuing in nvim_exec2() called at /nix/store/bxbpcdfqpbla87qkfncy8cc1zi4vnzxb-hm_nvim/init.lua:0
+finished sourcing nvim_exec2() called at /nix/store/bxbpcdfqpbla87qkfncy8cc1zi4vnzxb-hm_nvim/init.lua:0
+continuing in /nix/store/bxbpcdfqpbla87qkfncy8cc1zi4vnzxb-hm_nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /nix/store/bxbpcdfqpbla87qkfncy8cc1zi4vnzxb-hm_nvim/init.lua:0"
+line 1: sourcing "/nix/store/b0z11xqnafb6zj08403sqsrvzj7212j4-neovim-unwrapped-0.11.3/share/nvim/runtime/plugin/editorconfig.lua"
+finished sourcing /nix/store/b0z11xqnafb6zj08403sqsrvzj7212j4-neovim-unwrapped-0.11.3/share/nvim/runtime/plugin/editorconfig.lua
+continuing in nvim_exec2() called at /nix/store/bxbpcdfqpbla87qkfncy8cc1zi4vnzxb-hm_nvim/init.lua:0
+finished sourcing nvim_exec2() called at /nix/store/bxbpcdfqpbla87qkfncy8cc1zi4vnzxb-hm_nvim/init.lua:0
+continuing in /nix/store/bxbpcdfqpbla87qkfncy8cc1zi4vnzxb-hm_nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /nix/store/bxbpcdfqpbla87qkfncy8cc1zi4vnzxb-hm_nvim/init.lua:0"
+line 1: sourcing "/nix/store/b0z11xqnafb6zj08403sqsrvzj7212j4-neovim-unwrapped-0.11.3/share/nvim/runtime/plugin/gzip.vim"
+finished sourcing /nix/store/b0z11xqnafb6zj08403sqsrvzj7212j4-neovim-unwrapped-0.11.3/share/nvim/runtime/plugin/gzip.vim
+continuing in nvim_exec2() called at /nix/store/bxbpcdfqpbla87qkfncy8cc1zi4vnzxb-hm_nvim/init.lua:0
+finished sourcing nvim_exec2() called at /nix/store/bxbpcdfqpbla87qkfncy8cc1zi4vnzxb-hm_nvim/init.lua:0
+continuing in /nix/store/bxbpcdfqpbla87qkfncy8cc1zi4vnzxb-hm_nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /nix/store/bxbpcdfqpbla87qkfncy8cc1zi4vnzxb-hm_nvim/init.lua:0"
+line 1: sourcing "/nix/store/b0z11xqnafb6zj08403sqsrvzj7212j4-neovim-unwrapped-0.11.3/share/nvim/runtime/plugin/man.lua"
+finished sourcing /nix/store/b0z11xqnafb6zj08403sqsrvzj7212j4-neovim-unwrapped-0.11.3/share/nvim/runtime/plugin/man.lua
+continuing in nvim_exec2() called at /nix/store/bxbpcdfqpbla87qkfncy8cc1zi4vnzxb-hm_nvim/init.lua:0
+finished sourcing nvim_exec2() called at /nix/store/bxbpcdfqpbla87qkfncy8cc1zi4vnzxb-hm_nvim/init.lua:0
+continuing in /nix/store/bxbpcdfqpbla87qkfncy8cc1zi4vnzxb-hm_nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /nix/store/bxbpcdfqpbla87qkfncy8cc1zi4vnzxb-hm_nvim/init.lua:0"
+line 1: sourcing "/nix/store/b0z11xqnafb6zj08403sqsrvzj7212j4-neovim-unwrapped-0.11.3/share/nvim/runtime/plugin/matchit.vim"
+not found in 'packpath': "pack/*/start/matchit"
+line 3: sourcing "/nix/store/b0z11xqnafb6zj08403sqsrvzj7212j4-neovim-unwrapped-0.11.3/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim"
+finished sourcing /nix/store/b0z11xqnafb6zj08403sqsrvzj7212j4-neovim-unwrapped-0.11.3/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim
+continuing in /nix/store/b0z11xqnafb6zj08403sqsrvzj7212j4-neovim-unwrapped-0.11.3/share/nvim/runtime/plugin/matchit.vim
+finished sourcing /nix/store/b0z11xqnafb6zj08403sqsrvzj7212j4-neovim-unwrapped-0.11.3/share/nvim/runtime/plugin/matchit.vim
+continuing in nvim_exec2() called at /nix/store/bxbpcdfqpbla87qkfncy8cc1zi4vnzxb-hm_nvim/init.lua:0
+finished sourcing nvim_exec2() called at /nix/store/bxbpcdfqpbla87qkfncy8cc1zi4vnzxb-hm_nvim/init.lua:0
+continuing in /nix/store/bxbpcdfqpbla87qkfncy8cc1zi4vnzxb-hm_nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /nix/store/bxbpcdfqpbla87qkfncy8cc1zi4vnzxb-hm_nvim/init.lua:0"
+line 1: sourcing "/nix/store/b0z11xqnafb6zj08403sqsrvzj7212j4-neovim-unwrapped-0.11.3/share/nvim/runtime/plugin/matchparen.vim"
+finished sourcing /nix/store/b0z11xqnafb6zj08403sqsrvzj7212j4-neovim-unwrapped-0.11.3/share/nvim/runtime/plugin/matchparen.vim
+continuing in nvim_exec2() called at /nix/store/bxbpcdfqpbla87qkfncy8cc1zi4vnzxb-hm_nvim/init.lua:0
+finished sourcing nvim_exec2() called at /nix/store/bxbpcdfqpbla87qkfncy8cc1zi4vnzxb-hm_nvim/init.lua:0
+continuing in /nix/store/bxbpcdfqpbla87qkfncy8cc1zi4vnzxb-hm_nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /nix/store/bxbpcdfqpbla87qkfncy8cc1zi4vnzxb-hm_nvim/init.lua:0"
+line 1: sourcing "/nix/store/b0z11xqnafb6zj08403sqsrvzj7212j4-neovim-unwrapped-0.11.3/share/nvim/runtime/plugin/netrwPlugin.vim"
+not found in 'packpath': "pack/*/start/netrw"
+line 7: sourcing "/nix/store/b0z11xqnafb6zj08403sqsrvzj7212j4-neovim-unwrapped-0.11.3/share/nvim/runtime/pack/dist/opt/netrw/plugin/netrwPlugin.vim"
+finished sourcing /nix/store/b0z11xqnafb6zj08403sqsrvzj7212j4-neovim-unwrapped-0.11.3/share/nvim/runtime/pack/dist/opt/netrw/plugin/netrwPlugin.vim
+continuing in /nix/store/b0z11xqnafb6zj08403sqsrvzj7212j4-neovim-unwrapped-0.11.3/share/nvim/runtime/plugin/netrwPlugin.vim
+finished sourcing /nix/store/b0z11xqnafb6zj08403sqsrvzj7212j4-neovim-unwrapped-0.11.3/share/nvim/runtime/plugin/netrwPlugin.vim
+continuing in nvim_exec2() called at /nix/store/bxbpcdfqpbla87qkfncy8cc1zi4vnzxb-hm_nvim/init.lua:0
+finished sourcing nvim_exec2() called at /nix/store/bxbpcdfqpbla87qkfncy8cc1zi4vnzxb-hm_nvim/init.lua:0
+continuing in /nix/store/bxbpcdfqpbla87qkfncy8cc1zi4vnzxb-hm_nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /nix/store/bxbpcdfqpbla87qkfncy8cc1zi4vnzxb-hm_nvim/init.lua:0"
+line 1: sourcing "/nix/store/b0z11xqnafb6zj08403sqsrvzj7212j4-neovim-unwrapped-0.11.3/share/nvim/runtime/plugin/osc52.lua"
+finished sourcing /nix/store/b0z11xqnafb6zj08403sqsrvzj7212j4-neovim-unwrapped-0.11.3/share/nvim/runtime/plugin/osc52.lua
+continuing in nvim_exec2() called at /nix/store/bxbpcdfqpbla87qkfncy8cc1zi4vnzxb-hm_nvim/init.lua:0
+finished sourcing nvim_exec2() called at /nix/store/bxbpcdfqpbla87qkfncy8cc1zi4vnzxb-hm_nvim/init.lua:0
+continuing in /nix/store/bxbpcdfqpbla87qkfncy8cc1zi4vnzxb-hm_nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /nix/store/bxbpcdfqpbla87qkfncy8cc1zi4vnzxb-hm_nvim/init.lua:0"
+line 1: sourcing "/nix/store/b0z11xqnafb6zj08403sqsrvzj7212j4-neovim-unwrapped-0.11.3/share/nvim/runtime/plugin/rplugin.vim"
+line 3: sourcing "/nix/store/p1325jszqrigm8l4l69ddx3v9sp8hqkv-neovim-0.11.3/rplugin.vim"
+finished sourcing /nix/store/p1325jszqrigm8l4l69ddx3v9sp8hqkv-neovim-0.11.3/rplugin.vim
+continuing in <SNR>21_LoadRemotePlugins
+finished sourcing /nix/store/b0z11xqnafb6zj08403sqsrvzj7212j4-neovim-unwrapped-0.11.3/share/nvim/runtime/plugin/rplugin.vim
+continuing in nvim_exec2() called at /nix/store/bxbpcdfqpbla87qkfncy8cc1zi4vnzxb-hm_nvim/init.lua:0
+finished sourcing nvim_exec2() called at /nix/store/bxbpcdfqpbla87qkfncy8cc1zi4vnzxb-hm_nvim/init.lua:0
+continuing in /nix/store/bxbpcdfqpbla87qkfncy8cc1zi4vnzxb-hm_nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /nix/store/bxbpcdfqpbla87qkfncy8cc1zi4vnzxb-hm_nvim/init.lua:0"
+line 1: sourcing "/nix/store/b0z11xqnafb6zj08403sqsrvzj7212j4-neovim-unwrapped-0.11.3/share/nvim/runtime/plugin/shada.vim"
+finished sourcing /nix/store/b0z11xqnafb6zj08403sqsrvzj7212j4-neovim-unwrapped-0.11.3/share/nvim/runtime/plugin/shada.vim
+continuing in nvim_exec2() called at /nix/store/bxbpcdfqpbla87qkfncy8cc1zi4vnzxb-hm_nvim/init.lua:0
+finished sourcing nvim_exec2() called at /nix/store/bxbpcdfqpbla87qkfncy8cc1zi4vnzxb-hm_nvim/init.lua:0
+continuing in /nix/store/bxbpcdfqpbla87qkfncy8cc1zi4vnzxb-hm_nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /nix/store/bxbpcdfqpbla87qkfncy8cc1zi4vnzxb-hm_nvim/init.lua:0"
+line 1: sourcing "/nix/store/b0z11xqnafb6zj08403sqsrvzj7212j4-neovim-unwrapped-0.11.3/share/nvim/runtime/plugin/spellfile.vim"
+finished sourcing /nix/store/b0z11xqnafb6zj08403sqsrvzj7212j4-neovim-unwrapped-0.11.3/share/nvim/runtime/plugin/spellfile.vim
+continuing in nvim_exec2() called at /nix/store/bxbpcdfqpbla87qkfncy8cc1zi4vnzxb-hm_nvim/init.lua:0
+finished sourcing nvim_exec2() called at /nix/store/bxbpcdfqpbla87qkfncy8cc1zi4vnzxb-hm_nvim/init.lua:0
+continuing in /nix/store/bxbpcdfqpbla87qkfncy8cc1zi4vnzxb-hm_nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /nix/store/bxbpcdfqpbla87qkfncy8cc1zi4vnzxb-hm_nvim/init.lua:0"
+line 1: sourcing "/nix/store/b0z11xqnafb6zj08403sqsrvzj7212j4-neovim-unwrapped-0.11.3/share/nvim/runtime/plugin/tarPlugin.vim"
+finished sourcing /nix/store/b0z11xqnafb6zj08403sqsrvzj7212j4-neovim-unwrapped-0.11.3/share/nvim/runtime/plugin/tarPlugin.vim
+continuing in nvim_exec2() called at /nix/store/bxbpcdfqpbla87qkfncy8cc1zi4vnzxb-hm_nvim/init.lua:0
+finished sourcing nvim_exec2() called at /nix/store/bxbpcdfqpbla87qkfncy8cc1zi4vnzxb-hm_nvim/init.lua:0
+continuing in /nix/store/bxbpcdfqpbla87qkfncy8cc1zi4vnzxb-hm_nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /nix/store/bxbpcdfqpbla87qkfncy8cc1zi4vnzxb-hm_nvim/init.lua:0"
+line 1: sourcing "/nix/store/b0z11xqnafb6zj08403sqsrvzj7212j4-neovim-unwrapped-0.11.3/share/nvim/runtime/plugin/tohtml.lua"
+finished sourcing /nix/store/b0z11xqnafb6zj08403sqsrvzj7212j4-neovim-unwrapped-0.11.3/share/nvim/runtime/plugin/tohtml.lua
+continuing in nvim_exec2() called at /nix/store/bxbpcdfqpbla87qkfncy8cc1zi4vnzxb-hm_nvim/init.lua:0
+finished sourcing nvim_exec2() called at /nix/store/bxbpcdfqpbla87qkfncy8cc1zi4vnzxb-hm_nvim/init.lua:0
+continuing in /nix/store/bxbpcdfqpbla87qkfncy8cc1zi4vnzxb-hm_nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /nix/store/bxbpcdfqpbla87qkfncy8cc1zi4vnzxb-hm_nvim/init.lua:0"
+line 1: sourcing "/nix/store/b0z11xqnafb6zj08403sqsrvzj7212j4-neovim-unwrapped-0.11.3/share/nvim/runtime/plugin/tutor.vim"
+finished sourcing /nix/store/b0z11xqnafb6zj08403sqsrvzj7212j4-neovim-unwrapped-0.11.3/share/nvim/runtime/plugin/tutor.vim
+continuing in nvim_exec2() called at /nix/store/bxbpcdfqpbla87qkfncy8cc1zi4vnzxb-hm_nvim/init.lua:0
+finished sourcing nvim_exec2() called at /nix/store/bxbpcdfqpbla87qkfncy8cc1zi4vnzxb-hm_nvim/init.lua:0
+continuing in /nix/store/bxbpcdfqpbla87qkfncy8cc1zi4vnzxb-hm_nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /nix/store/bxbpcdfqpbla87qkfncy8cc1zi4vnzxb-hm_nvim/init.lua:0"
+line 1: sourcing "/nix/store/b0z11xqnafb6zj08403sqsrvzj7212j4-neovim-unwrapped-0.11.3/share/nvim/runtime/plugin/zipPlugin.vim"
+finished sourcing /nix/store/b0z11xqnafb6zj08403sqsrvzj7212j4-neovim-unwrapped-0.11.3/share/nvim/runtime/plugin/zipPlugin.vim
+continuing in nvim_exec2() called at /nix/store/bxbpcdfqpbla87qkfncy8cc1zi4vnzxb-hm_nvim/init.lua:0
+finished sourcing nvim_exec2() called at /nix/store/bxbpcdfqpbla87qkfncy8cc1zi4vnzxb-hm_nvim/init.lua:0
+continuing in /nix/store/bxbpcdfqpbla87qkfncy8cc1zi4vnzxb-hm_nvim/init.lua
+finished sourcing /home/victos/.config/nvim/init.lua
+sourcing "/nix/store/b0z11xqnafb6zj08403sqsrvzj7212j4-neovim-unwrapped-0.11.3/share/nvim/runtime/filetype.lua"
+finished sourcing /nix/store/b0z11xqnafb6zj08403sqsrvzj7212j4-neovim-unwrapped-0.11.3/share/nvim/runtime/filetype.lua
+sourcing "/nix/store/b0z11xqnafb6zj08403sqsrvzj7212j4-neovim-unwrapped-0.11.3/share/nvim/runtime/syntax/syntax.vim"
+line 20: sourcing "/nix/store/b0z11xqnafb6zj08403sqsrvzj7212j4-neovim-unwrapped-0.11.3/share/nvim/runtime/syntax/synload.vim"
+finished sourcing /nix/store/b0z11xqnafb6zj08403sqsrvzj7212j4-neovim-unwrapped-0.11.3/share/nvim/runtime/syntax/synload.vim
+continuing in /nix/store/b0z11xqnafb6zj08403sqsrvzj7212j4-neovim-unwrapped-0.11.3/share/nvim/runtime/syntax/syntax.vim
+finished sourcing /nix/store/b0z11xqnafb6zj08403sqsrvzj7212j4-neovim-unwrapped-0.11.3/share/nvim/runtime/syntax/syntax.vim
+Reading ShaDa file "/home/victos/.local/state/nvim/shada/main.shada" info marks oldfiles
+
+Writing ShaDa file "/home/victos/.local/state/nvim/shada/main.shada"

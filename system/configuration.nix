@@ -20,8 +20,8 @@
   # Networking
   networking.hostName = "vertex";
   networking.networkmanager.enable = true;
-  
-  # Define a user account. Don't forget to set a password with ‘passwd’.
+
+  # User Account
   users.users.victos = {
     isNormalUser = true;
     extraGroups = [ "wheel" ]; # Enable ‘sudo’ for the user.
