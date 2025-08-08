@@ -25,5 +25,6 @@ require("lazy").setup({
     spec = {
         { import = "plugins" },
     },
-    change_detection_notify = { notify = false }
+    change_detection_notify = { notify = false },
+    lockfile = vim.fn.stdpath("data") .. "/lazy/lazy-lock.json",
 })
