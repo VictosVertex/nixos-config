@@ -57,6 +57,9 @@
 
         # Utility
         btop
+
+        # Graphic Design
+        inkscape
     ];
 
 
