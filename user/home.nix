@@ -12,15 +12,15 @@
         userEmail = "Victos.Vertex@gmail.com";
     };
 
-# SSH	
+    # SSH	
     programs.ssh = {
         enable = true;
         addKeysToAgent = "yes";
     };	
 
-# SSH Agent to hold the key
+    # SSH Agent to hold the key
     services.ssh-agent.enable = true;
-
+    
     home.packages = with pkgs; [
         # Text Editor
         neovim
@@ -60,6 +60,9 @@
 
         # Graphic Design
         inkscape
+
+        # Fonts
+        fira-code
     ];
 
 
