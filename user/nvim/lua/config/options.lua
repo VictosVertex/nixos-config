@@ -2,6 +2,9 @@
 vim.opt.number = true
 vim.opt.relativenumber = true
 
+-- Turn off line wrap
+vim.opt.wrap = false
+
 -- Orientation
 vim.opt.cursorline = true
 vim.opt.colorcolumn = "80"
