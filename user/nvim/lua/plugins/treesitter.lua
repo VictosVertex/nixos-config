@@ -2,7 +2,7 @@ vim.pack.add({
     {src = "https://github.com/nvim-treesitter/nvim-treesitter"},
 })
 
-require("telescope").setup({
+require("nvim-treesitter").setup({
     ensure_installed = {
         "lua",
         "vim",
