@@ -7,3 +7,5 @@ require('plugins.lualine')
 require('plugins.treesitter')
 require('plugins.telescope')
 require('plugins.harpoon')
+
+vim.lsp.enable('lua_ls')
