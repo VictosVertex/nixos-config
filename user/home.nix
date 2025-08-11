@@ -63,6 +63,7 @@
 
         # Fonts
         fira-code
+        aileron
     ];
 
 
