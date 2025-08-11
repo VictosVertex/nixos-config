@@ -1,20 +1,20 @@
-return {
-    "nvim-treesitter/nvim-treesitter",
-    build = ":TSUpdate",
-    main = 'nvim-treesitter.configs',
-    opts = {
-        ensure_installed = {
-            "lua",
-            "vim",
-            "vimdoc",
-            "markdown", 
-            "rust", 
-        },
-        auto_install = false,
-        highlight = {
-            enable = true,
-            additional_vim_regex_highlighting = false,
-        },
-        indent = { enable = true }
-    }
-}
+vim.pack.add({
+    {src = "https://github.com/nvim-treesitter/nvim-treesitter"},
+})
+
+require("telescope").setup({
+    ensure_installed = {
+        "lua",
+        "vim",
+        "vimdoc",
+        "markdown", 
+        "rust", 
+    },
+    auto_install = false,
+    highlight = {
+        enable = true,
+        additional_vim_regex_highlighting = false,
+    },
+    indent = { enable = true }
+
+})

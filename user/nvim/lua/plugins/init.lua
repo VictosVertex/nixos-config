@@ -1,0 +1,5 @@
+require('theme')
+require('lualine')
+require('treesitter')
+require('telescope')
+require('harpoon')
