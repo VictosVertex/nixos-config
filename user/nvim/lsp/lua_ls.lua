@@ -1,9 +1,6 @@
 return {
     cmd = { 'lua-language-server' },
     filetypes = { 'lua' },
-    diagnostics = {
-        globals = { "vim" }
-    },
     root_markers = {
         '.luarc.json',
         '.luarc.jsonc',
@@ -13,5 +10,12 @@ return {
         'selene.toml',
         'selene.yml',
         '.git',
+    },
+    settings = {
+        Lua = {
+            diagnostics = {
+                globals = { "vim" }
+            }
+        }
     },
 }
