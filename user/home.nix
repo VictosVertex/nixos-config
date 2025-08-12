@@ -28,6 +28,14 @@
         # Programming
         gcc
 
+        rustc
+        cargo
+        clippy
+        rustfmt
+        rust-analyzer
+
+        lua-language-server
+
         # Communication
         discord
 
