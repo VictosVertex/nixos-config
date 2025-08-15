@@ -1,0 +1,35 @@
+{
+    /* Module Locations */
+    "modules-center": [
+        "hyprland/workspaces"
+    ],
+    "modules-right": [
+        "clock",
+        "cpu",
+        "memory"
+    ],
+    /* Module Settings */
+    "hyprland/workspaces": {
+        "disable-scroll": true,
+        "all-outputs": true,
+        "show-special": true,
+        "format": "<span font='12'>{icon}</span>",
+        "format-icons": {
+            "active": "\uf111",
+            "persistent": "\uf192",
+            "empty": "\uf10c"
+        },
+        "persistent-workspaces": {
+            "*":4
+        }
+    },
+    "clock": {
+        "format": "{:%I:%M %d, %m}"
+    },
+    "cpu": {
+        "format": "CPU: {usage}%"
+    },
+    "memory": {
+        "format": "RAM: {}%"
+    }
+}

@@ -80,6 +80,7 @@
         "hypr/hyprland.conf".source = ./hypr/hyprland.conf;
         "nvim".source = ./nvim;
         "ghostty/config".source = ./ghostty/config;
+        "waybar".source = ./waybar;
     };
 
     home.stateVersion = "25.05";
