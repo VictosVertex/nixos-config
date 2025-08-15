@@ -72,6 +72,7 @@
         # Fonts
         fira-code
         aileron
+        nerd-fonts.jetbrains-mono
     ];
 
 
