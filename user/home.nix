@@ -82,6 +82,7 @@
         "ghostty/config".source = ./ghostty/config;
         "waybar".source = ./waybar;
         "fuzzel/fuzzel.ini".source = ./fuzzel/fuzzel.ini;
+        "btop".source = ./btop;
     };
 
     home.stateVersion = "25.05";
