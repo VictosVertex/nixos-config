@@ -10,8 +10,7 @@ It will mainly be used for development but may introduce other elements, such as
 
 While NixOS can configure almost everything (it seems), I've chosen to follow a hybrid approach. 
 More precisely, I've decided to keep certain configurations in the same repository 
-but still use their native configurations. For example, NeoVIM will be configured using lua (with [lazy.nvim](https://github.com/folke/lazy.nvim)),
-not nix.
+but still use their native configurations. For example, NeoVIM will be configured using lua, not nix.
 
 This may introduce some extra challenges, but could also provide some benefits:
 * **Portability:** The native configuration remains self-contained and can easily be used in non-Nix-based machines.
