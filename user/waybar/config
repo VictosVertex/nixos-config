@@ -1,4 +1,11 @@
 {
+    /* General Bar Settings */
+    "layer": "top",
+    "spacing":8,
+    "margin-top":8,
+    "margin-left":8,
+    "margin-right":8,
+
     /* Module Locations */
     "modules-center": [
         "hyprland/workspaces"
@@ -8,12 +15,13 @@
         "cpu",
         "memory"
     ],
+
     /* Module Settings */
     "hyprland/workspaces": {
         "disable-scroll": true,
         "all-outputs": true,
         "show-special": true,
-        "format": "<span font='12'>{icon}</span>",
+        "format": "{icon}",
         "format-icons": {
             "active": "\uf111",
             "persistent": "\uf192",
@@ -24,7 +32,7 @@
         }
     },
     "clock": {
-        "format": "{:%I:%M %d, %m}"
+        "format": "{:%d, %m - %I:%M}"
     },
     "cpu": {
         "format": "CPU: {usage}%"

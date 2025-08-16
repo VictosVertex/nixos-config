@@ -1,22 +1,24 @@
 * {
     border:none;
-    background: rgba(36, 39, 58, 0.8);
     font-size:15px;
     font-family: "JetbrainsMono Nerd Font";
-    min-height:40px;
+}
+
+window#waybar {
+    background: transparent;
+    background: rgba(36, 39, 58, 0.8);
 }
 
 #cpu,
 #memory,
-#clock {
+#clock,
+#workspaces {
     color:#91d7e3;
-    padding-left: 16px;
-    padding-right: 16px;
+    padding: 8px;
 }
 
 #workspaces button {
     color: #8aadf4;
-    padding: 4px 16px 4px 16px;
     transition: color 0.3s ease, text-shadow 0.3s ease, transform 0.3s ease;
 }
 
