@@ -81,6 +81,7 @@
         "nvim".source = ./nvim;
         "ghostty/config".source = ./ghostty/config;
         "waybar".source = ./waybar;
+        "fuzzel/fuzzel.ini" = ./fuzzel/fuzzel.ini;
     };
 
     home.stateVersion = "25.05";
