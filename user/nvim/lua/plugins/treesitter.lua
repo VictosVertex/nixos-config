@@ -7,8 +7,8 @@ require("nvim-treesitter.configs").setup({
         "lua",
         "vim",
         "vimdoc",
-        "markdown", 
-        "rust", 
+        "markdown",
+        "rust",
     },
     auto_install = false,
     highlight = {
