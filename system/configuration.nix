@@ -28,6 +28,7 @@
     packages = with pkgs; [
       tree
     ];
+    shell = pkgs.nushell;
   };
 
   # Localization

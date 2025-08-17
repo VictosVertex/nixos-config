@@ -12,12 +12,14 @@
 
     outputs = { self, nixpkgs, home-manager, ... }@inputs: 
     let
+        system = "x86_64-linux";
         overlays = [
             inputs.neovim-nightly-overlay.overlays.default
         ];
     in
     {
         nixosConfigurations.vertex = nixpkgs.lib.nixosSystem {
+           inherit system;
             modules = [ 
                 ./system/configuration.nix
                 home-manager.nixosModules.home-manager {

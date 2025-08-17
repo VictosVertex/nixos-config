@@ -21,6 +21,11 @@
     # SSH Agent to hold the key
     services.ssh-agent.enable = true;
     
+    # Shell
+    programs.nushell = {
+        enable = true;
+    };
+
     home.packages = with pkgs; [
         # Text Editor
         neovim
