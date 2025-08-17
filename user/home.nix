@@ -88,6 +88,7 @@
         "waybar".source = ./waybar;
         "fuzzel/fuzzel.ini".source = ./fuzzel/fuzzel.ini;
         "btop".source = ./btop;
+        "nushell".source = ./nushell;
     };
 
     home.stateVersion = "25.05";
