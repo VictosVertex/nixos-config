@@ -4,5 +4,8 @@ vim.pack.add({
 
 require("typst-preview").setup({
     follow_cursor = true,
-    dependencies_bin = { ['tinymist'] = 'tinymist' }
+    dependencies_bin = {
+        ['tinymist'] = 'tinymist',
+        ['websocat'] = 'websocat',
+    }
 })
