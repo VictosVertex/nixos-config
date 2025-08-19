@@ -71,6 +71,7 @@
 
         # Utility
         btop
+        websocat # Websockets, needed for typst preview
 
         # Graphic Design
         inkscape

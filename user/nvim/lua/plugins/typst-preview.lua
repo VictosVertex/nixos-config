@@ -3,5 +3,6 @@ vim.pack.add({
 })
 
 require("typst-preview").setup({
-    follow_cursor = true
+    follow_cursor = true,
+    dependencies_bin = { ['tinymist'] = 'tinymist' }
 })
