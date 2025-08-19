@@ -40,7 +40,8 @@
         rust-analyzer
 
         lua-language-server
-
+        
+        tinymist
         # Communication
         discord
 
