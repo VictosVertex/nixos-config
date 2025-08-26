@@ -9,3 +9,7 @@ require("typst-preview").setup({
         ['websocat'] = 'websocat',
     }
 })
+
+
+vim.keymap.set('n', '<leader>p', ':TypstPreview<CR>')
+vim.keymap.set('n', '<leader>P', ':TypstPreviewStop<CR>')
