@@ -73,6 +73,9 @@
         # Utility
         btop
         websocat # Websockets, needed for typst preview
+        grim     # Screenshot utility
+        slurp    # Region selector
+        wl-clipboard # Clipboard utility (screenshot into clipboard)
 
         # Graphic Design
         inkscape
