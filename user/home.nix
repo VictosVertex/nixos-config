@@ -15,8 +15,9 @@
     # SSH	
     programs.ssh = {
         enable = true;
-        addKeysToAgent = "yes";
-    };	
+        enableDefaultConfig = false;
+        matchBlocks."*".addKeysToAgent = "yes";
+    };
 
     # SSH Agent to hold the key
     services.ssh-agent.enable = true;
