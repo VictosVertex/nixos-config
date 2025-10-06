@@ -9,3 +9,4 @@ vim.keymap.set("n", "<down>", '<cmd>echo "Use j to move!!"<CR>')
 
 -- Exit insert mode without needing to hit ESC
 vim.keymap.set("i", "jj", "<ESC>")
+vim.keymap.set("n", "<leader>e", "vim.diagnostic.open_float")
