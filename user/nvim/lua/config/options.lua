@@ -40,3 +40,6 @@ vim.opt.timeoutlen = 300
 -- Whitespace
 vim.opt.list = true
 vim.opt.listchars = { tab = "» ", trail = "·", nbsp = "␣" }
+
+-- Hover Window
+vim.opt.winborder = "single"
