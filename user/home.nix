@@ -25,6 +25,7 @@
     # Shell
     programs.nushell = {
         enable = true;
+        configFile.source = ./nushell/config.nu;
     };
 
     home.packages = with pkgs; [
@@ -93,7 +94,6 @@
         "waybar".source = ./waybar;
         "fuzzel/fuzzel.ini".source = ./fuzzel/fuzzel.ini;
         "btop".source = ./btop;
-        "nushell/config.nu".source = ./nushell/config.nu;
     };
     
     home.file.".config/nvim" = {
